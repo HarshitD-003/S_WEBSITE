@@ -1,23 +1,22 @@
-var $cont = document.querySelector('.cont');
-var $elsArr = [].slice.call(document.querySelectorAll('.el'));
-var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
+var galleryItems = document.querySelectorAll('[data-fancybox="gallery"]');
 
-setTimeout(function() {
-  $cont.classList.remove('s--inactive');
-}, 200);
+galleryItems.forEach(function(item) {
+  item.addEventListener('click', function() {
+    var options = {
+      buttons: [
+        "slideShow",
+        "thumbs",
+        "zoom",
+        "fullScreen",
+        "share",
+        "close"
+      ],
+      loop: false,
+      protect: true
+    };
+    
+    item.classList.add("gallery-active"); // Add "gallery-active" class to the clicked item
 
-$elsArr.forEach(function($el) {
-  $el.addEventListener('click', function() {
-    if (this.classList.contains('s--active')) return;
-    $cont.classList.add('s--el-active');
-    this.classList.add('s--active');
-  });
-});
-
-$closeBtnsArr.forEach(function($btn) {
-  $btn.addEventListener('click', function(e) {
-    e.stopPropagation();
-    $cont.classList.remove('s--el-active');
-    document.querySelector('.el.s--active').classList.remove('s--active');
+    
   });
 });

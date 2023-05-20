@@ -141,8 +141,8 @@ a.out:hover:before,a.out:focus:before,a.out:active:before {
 }
 
 nav ul a.active {
-  color: #fff;
-  background-color: #1b00ea;
+  color: black;
+  background-color: yellow;
   pointer-events: none;
   cursor: default;
 }

@@ -10,6 +10,7 @@ function isElementInViewport(el) {
 
 function handleScroll() {
   var elements = document.querySelectorAll('.fade-in');
+  var s2 = document.querySelectorAll('.sight2');
   elements.forEach(function(element) {
     if (isElementInViewport(element)) {
       element.classList.add('show');
