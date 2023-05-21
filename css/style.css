@@ -2248,7 +2248,7 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 .mentor-head {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 400%;
+  font-size: 350%;
 }
 
 .name {
@@ -2608,6 +2608,12 @@ a.site-logo {
             background-color: red;
             animation: moveLine 3s linear infinite;
         }
+
+        @media (max-width: 768px) {
+          .line-car {
+            height: 0;
+          }
+        }
         
         @keyframes moveLine {
             0% {
@@ -2717,6 +2723,7 @@ a.site-logo {
   background: #edf3f5;
   padding: 10px 0;
   margin-bottom: 0;
+  font-size: 40px;
 }
 
 .card-ev p {
