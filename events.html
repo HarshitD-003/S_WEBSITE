@@ -9,20 +9,27 @@
 <link rel="icon" type="image/png" href="sankalpimg/sankalplogo.png" sizes="192x192">
 <link rel="icon" type="image/png" href="sankalpimg/sankalplogo.png" sizes="96x96">
 <link rel="icon" type="image/png" href="sankalpimg/sankalplogo.png" sizes="16x16">
-<link rel="stylesheet" href="css/animsition.min.css">
+
+
 <link rel="stylesheet" type="text/css" href="css/grid.min.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/menu.css" />
 <link rel="stylesheet" type="text/css" href="css/overlay.css" />
-<link rel="stylesheet" href="css/social.css">
-<link rel="stylesheet" href="css/imgover.css">
-<link rel="stylesheet" href="css/triangle.css">
-<link href="css/lightgallery.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/social.css" />
+<link rel="stylesheet" type="text/css" href="css/triangle.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.8/font-awesome-animation.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Kanit&family=Lobster&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-</head>
+<script src="https://kit.fontawesome.com/56201f04b5.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Great+Vibes&family=Inconsolata&family=Lobster&family=Lora:wght@700&family=Playfair+Display:wght@600&family=Raleway:wght@300&family=Righteous&family=Sacramento&family=Tilt+Prism&display=swap" rel="stylesheet"></head>
+
 <body>
 <div class="animsition-overlay">
   <section id="section-6">
@@ -56,7 +63,7 @@
     </header>
     </header>
     <div class="grid flex">
-      <div class="row sight">
+      <div class="row sight s2">
         <div class="colw_6 ">
           <h1 id="title-sub1">SANKALP</h1>
           <h2 id="title-sub2">EVENTS</h2>
@@ -139,7 +146,8 @@
     </div>
   </div>
   
-  
+  <div><h3 class="moving-text">◉ Click the Events to Explore!</h3></div>
+
     <div class="container-ev">
         <div class="card-ev">
             <img class="card-img-ev" src="sankalpimg/jan3.jpg">
@@ -287,8 +295,8 @@
   <div class="row ">
     <div class="colw_6 zoomIn right-panel">
       <div class="wrapimg hack960">
-        <video width="500px" height="500px"
-                  controls="controls">
+        <video
+                  controls="controls" class="vid">
                    
                   <source src="sankalpimg/sankalpvid.mp4"
                       type="video/mp4">
@@ -342,45 +350,11 @@
   </div>
 </footer>
 
-<script src="js/card-ev.js"></script>
 <script src="js/navbar.js"></script>
-<script src="js/carousel.js"></script>
-<script src="js/fadeindown.js"></script>
+
 <script src="js/fadeinup.js"></script>
 <script src="js/fadeinright.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script> 
-<script src="js/wow.min.js"></script> 
-<script src="js/animsition.min.js"></script> 
-<script src="js/lightgallery-all.min.js"></script> 
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('#lightgallery').lightGallery();
-        });
-    $('#lightgallery2').lightGallery({
-        thumbnail:true,
-        animateThumb: false,
-        showThumbByDefault: false,		
-		speed: 1200
-    });
-	    $('#gallery-99').lightGallery({
-        thumbnail:true,
-        animateThumb: false,
-        showThumbByDefault: false,		
-		speed: 1200
-    });
-        </script> 
-<script src="js/functions.js"></script> 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-15815880-3']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+<script src="js/card-ev.js"></script>
 
 </body>
 </html>
