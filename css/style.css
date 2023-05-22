@@ -1289,7 +1289,7 @@ article img {
   position: absolute;
   left: 50%;
   bottom: 20px;
-  z-index: 5;
+  z-index: 0;
   width: 200px;
   height: 44px;
   opacity: 0.8;
@@ -1370,7 +1370,7 @@ article img {
   position: absolute;
   bottom: 63px;
   left: 0;
-  z-index: 5;
+  z-index: 0;
   width: -webkit-calc(50% - 100px);
   width: -moz-calc(50% - 100px);
   width: calc(50% - 100px);
@@ -1751,6 +1751,10 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 @media all and (max-width: 1280px) {
   section {
     min-height: auto;
+  }
+  #modal-header-ev{
+    font-size: xx-large;
+    text-align: center;
   }
 }
 
