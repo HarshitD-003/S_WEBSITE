@@ -1030,6 +1030,12 @@ h5.title0 {
   width: 90%;
 }
 
+.xrp{
+  margin-left: 36%;
+  height: 30%;
+  width: 30%;
+}
+
 .gray3 {
   background-color: #D2DAE7;
   color: #000;
@@ -1773,6 +1779,12 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 @media all and (max-width: 960px) {
   .vito {
     display: none !important;
+  }
+
+  .xrp{
+    margin-left: 22%;
+    width: 60%;
+    height: 60%;
   }
 
   .bghwhite {
@@ -2912,7 +2924,7 @@ a.site-logo {
 .mtc {
   color:rgb(255, 115, 0);
 }
-.close-ev{
-font-size: 250%;
-}
 
+.close-ev{
+  font-size: 250%;
+}
