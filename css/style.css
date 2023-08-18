@@ -629,8 +629,8 @@ a.scroll::after {
   line-height: 72px;
   font-weight: 900;
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 0;
 }
 
 .title-5 {
@@ -876,6 +876,10 @@ a.vale {
     width: 40%;
     text-transform: uppercase;
     
+  }
+  .title-4{
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
   }
 }
 
@@ -2704,7 +2708,7 @@ a.site-logo {
           bottom: 5%;
           text-align: center;
           font-family: 'Dancing Script', cursive;
-          font-size: 150%;
+          font-size: x-large;
           line-height: 100%;
         }
         #text-car2 {
