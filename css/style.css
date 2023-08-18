@@ -41,7 +41,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: 'Mukta', sans-serif;
+ 
   vertical-align: baseline;
 }
 
@@ -877,10 +877,20 @@ a.vale {
     text-transform: uppercase;
     
   }
+
   .title-4{
     padding-top: 10px !important;
     padding-bottom: 0 !important;
   }
+
+  .pic-xr{
+    width: 150% !important;
+    height: 150% !important;
+    }
+
+    .xrp{
+      margin-left: 12% !important;
+    }
 }
 
 a.vale:hover {
@@ -1061,6 +1071,13 @@ h5.title0 {
   display: block;
   height: 90%;
   width: 90%;
+}
+
+.pic-xr{
+  border-radius: 100%;
+  box-shadow:10px 0 100px rgb(204, 95, 7);
+  width: 65%;
+  height: 65%
 }
 
 .xrp{
