@@ -37,6 +37,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   border: 0;
@@ -564,7 +565,7 @@ a.scroll::after {
 }
 
 .social-btn-box .facebook-btn:hover {
-  background: #3B5998;
+  background: #a90808;
   color: white;
 }
 
@@ -1075,7 +1076,6 @@ h5.title0 {
 
 .pic-xr{
   border-radius: 100%;
-  box-shadow:10px 0 100px rgb(204, 95, 7);
   width: 65%;
   height: 65%
 }
@@ -1137,7 +1137,7 @@ h5.title0 {
 article {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 40rem;
   overflow: hidden;
 }
 
@@ -1525,7 +1525,8 @@ article img {
 }
 
 #graybg {
-  background-color: #FFE194;
+  background-color: #ef5734;
+background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
 
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -2179,13 +2180,19 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 .our-team {
   padding: 30px 0 40px;
   margin-bottom: 30px;
-  background-color: #F5F0BB;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 40px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
   overflow: hidden;
   position: relative;
   width: 90%;
   height: 350px;
   margin-left: 5%;
+  
 }
 
 .our-team .picture {
@@ -2989,7 +2996,7 @@ a.site-logo {
     activate when you put in your website (optional)
   */
   color: rgb(255, 255, 255);
-  padding: 30px 80px 30px 30px;
+  padding: 30px 30px 30px 30px;
 }
 .hero-z .container-z{
   justify-content: space-between;
