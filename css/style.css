@@ -317,7 +317,7 @@ strong {
   height: 100vh;
   width: 100%;
   background-color: #1F2535;
-  background: url(../sankalpimg/webbkg.jpg.webp) no-repeat center center fixed;
+  background: url(../sankalpimg/webbkg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -338,7 +338,7 @@ section {
   min-height: 100vh;
   width: 100%;
   background-color: #141C31;
-  background: url(../sankalpimg/eventmainbkg.png);
+  background: url(../sankalpimg/eventmainbkg.jpg);
 }
 
 #section-4 {
